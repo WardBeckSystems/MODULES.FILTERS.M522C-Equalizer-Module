@@ -1,0 +1,157 @@
+{
+ "code": "M522C",
+ "connector": "RTO-144",
+ "type": "Stereo Equalizer",
+ "series": null,
+ "contacts": "21 contacts",
+ "verified": null,
+ "derived": false,
+ "variant_of": null,
+ "pins": [
+  {
+   "pin": "4",
+   "signal": "LEFT(MONO) IN",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "5",
+   "signal": "LEFT(MONO) IN",
+   "kind": "in",
+   "pair": "A1",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "6",
+   "signal": "LEFT(MONO) OUT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "7",
+   "signal": "LEFT(MONO) OUT",
+   "kind": "out",
+   "pair": "A2",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "9",
+   "signal": "RIGHT IN",
+   "kind": "in",
+   "pair": "A3",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "10",
+   "signal": "RIGHT IN",
+   "kind": "in",
+   "pair": "A3",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "11",
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "pair": "A4",
+   "polarity": "+",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "12",
+   "signal": "RIGHT OUT",
+   "kind": "out",
+   "pair": "A4",
+   "polarity": "-",
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "19",
+   "signal": "-25 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "20",
+   "signal": "COMMON",
+   "kind": "ground",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  },
+  {
+   "pin": "21",
+   "signal": "+25 V",
+   "kind": "power",
+   "pair": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": "rto-144",
+   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
+   "page": 1
+  }
+ ],
+ "straps": [],
+ "power": [
+  {
+   "rail": "VEE-AUDIO",
+   "style": "NEW",
+   "volts": -25,
+   "max_a": 0.2,
+   "supply": "19",
+   "ground": "20",
+   "link": 2
+  },
+  {
+   "rail": "VCC-AUDIO",
+   "style": "NEW",
+   "volts": 25,
+   "max_a": 0.2,
+   "supply": "21",
+   "ground": "20",
+   "link": 1
+  }
+ ],
+ "sources": [
+  "Engineering/RTO-144/M522C/M522C.rto144.json"
+ ]
+}
