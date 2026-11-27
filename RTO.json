@@ -3,155 +3,483 @@
  "connector": "RTO-144",
  "type": "Stereo Equalizer",
  "series": null,
- "contacts": "21 contacts",
+ "connectors": [
+  {
+   "name": "P1",
+   "kind": "edge",
+   "contacts": 22,
+   "rows": "1-22 single row",
+   "view": null,
+   "part": null
+  }
+ ],
  "verified": null,
- "derived": false,
- "variant_of": null,
+ "built_from": {
+  "pictures": [
+   "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+   "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+  ],
+  "sheet": "Engineering/RTO-144/M522C/M522C.rto144.json",
+  "sheet_agrees": "11 of 11"
+ },
  "pins": [
   {
+   "connector": "P1",
+   "pin": "1",
+   "ref": "1",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "2",
+   "ref": "2",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "3",
+   "ref": "3",
+   "also": null,
+   "same_row": null,
+   "signal": "LEFT/MONO INPUT SHIELD",
+   "kind": "shield",
+   "port": "LEFT/MONO INPUT",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "4",
-   "signal": "LEFT(MONO) IN",
+   "ref": "4",
+   "also": null,
+   "same_row": null,
+   "signal": "LEFT/MONO INPUT +",
    "kind": "in",
-   "pair": "A1",
+   "port": "LEFT/MONO INPUT",
    "polarity": "+",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left(Mono) IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "5",
-   "signal": "LEFT(MONO) IN",
+   "ref": "5",
+   "also": null,
+   "same_row": null,
+   "signal": "LEFT/MONO INPUT -",
    "kind": "in",
-   "pair": "A1",
+   "port": "LEFT/MONO INPUT",
    "polarity": "-",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Left(Mono) IN -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "6",
-   "signal": "LEFT(MONO) OUT",
+   "ref": "6",
+   "also": null,
+   "same_row": null,
+   "signal": "LEFT/MONO OUTPUT",
    "kind": "out",
-   "pair": "A2",
+   "port": "LEFT/MONO OUTPUT",
    "polarity": "+",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "LEFT(MONO) OUT +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "7",
-   "signal": "LEFT(MONO) OUT",
+   "ref": "7",
+   "also": null,
+   "same_row": null,
+   "signal": "LEFT/MONO OUTPUT COMMON",
    "kind": "out",
-   "pair": "A2",
+   "port": "LEFT/MONO OUTPUT",
    "polarity": "-",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "LEFT(MONO) OUT -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "8",
+   "ref": "8",
+   "also": null,
+   "same_row": null,
+   "signal": "RIGHT INPUT SHIELD",
+   "kind": "shield",
+   "port": "RIGHT INPUT",
+   "polarity": "shield",
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "9",
-   "signal": "RIGHT IN",
+   "ref": "9",
+   "also": null,
+   "same_row": null,
+   "signal": "RIGHT INPUT +",
    "kind": "in",
-   "pair": "A3",
+   "port": "RIGHT INPUT",
    "polarity": "+",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right IN +",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "10",
-   "signal": "RIGHT IN",
+   "ref": "10",
+   "also": null,
+   "same_row": null,
+   "signal": "RIGHT INPUT -",
    "kind": "in",
-   "pair": "A3",
+   "port": "RIGHT INPUT",
    "polarity": "-",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right IN -",
+    "kind": "in",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "11",
-   "signal": "RIGHT OUT",
+   "ref": "11",
+   "also": null,
+   "same_row": null,
+   "signal": "RIGHT OUTPUT",
    "kind": "out",
-   "pair": "A4",
+   "port": "RIGHT OUTPUT",
    "polarity": "+",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right Out +",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "12",
-   "signal": "RIGHT OUT",
+   "ref": "12",
+   "also": null,
+   "same_row": null,
+   "signal": "RIGHT OUTPUT COMMON",
    "kind": "out",
-   "pair": "A4",
+   "port": "RIGHT OUTPUT",
    "polarity": "-",
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "Right Out -",
+    "kind": "out",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
+   "pin": "13",
+   "ref": "13",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "14",
+   "ref": "14",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "15",
+   "ref": "15",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "16",
+   "ref": "16",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "17",
+   "ref": "17",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
+   "pin": "18",
+   "ref": "18",
+   "also": null,
+   "same_row": null,
+   "signal": "N/C",
+   "kind": "nc",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
+  },
+  {
+   "connector": "P1",
    "pin": "19",
+   "ref": "19",
+   "also": null,
+   "same_row": null,
    "signal": "-25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VEE-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "20",
-   "signal": "COMMON",
+   "ref": "20",
+   "also": null,
+   "same_row": null,
+   "signal": "25V COM",
    "kind": "ground",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "GND",
+    "kind": "ground",
+    "agrees": true
+   }
   },
   {
+   "connector": "P1",
    "pin": "21",
+   "ref": "21",
+   "also": null,
+   "same_row": null,
    "signal": "+25 V",
    "kind": "power",
-   "pair": null,
+   "port": null,
    "polarity": null,
    "confidence": "high",
-   "read_from": "rto-144",
-   "file": "Engineering/RTO-144/M522C/M522C.rto144.json",
-   "page": 1
-  }
- ],
- "straps": [],
- "power": [
-  {
-   "rail": "VEE-AUDIO",
-   "style": "NEW",
-   "volts": -25,
-   "max_a": 0.2,
-   "supply": "19",
-   "ground": "20",
-   "link": 2
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": {
+    "signal": "VCC-AUDIO",
+    "kind": "power",
+    "agrees": true
+   }
   },
   {
-   "rail": "VCC-AUDIO",
-   "style": "NEW",
-   "volts": 25,
-   "max_a": 0.2,
-   "supply": "21",
-   "ground": "20",
-   "link": 1
+   "connector": "P1",
+   "pin": "22",
+   "ref": "22",
+   "also": null,
+   "same_row": null,
+   "signal": "CHASSIS",
+   "kind": "ground",
+   "port": null,
+   "polarity": null,
+   "confidence": "high",
+   "read_from": [
+    "M522/PINOUTS/19xx - M522 - A B - P14 - Pinouts.pinout.json",
+    "M522B/PINOUTS/19xx - M522B - P14 - Pinouts.pinout.json"
+   ],
+   "sheet": null
   }
  ],
- "sources": [
-  "Engineering/RTO-144/M522C/M522C.rto144.json"
- ]
+ "ports": [
+  {
+   "name": "LEFT/MONO INPUT",
+   "dir": "in",
+   "pins": {
+    "shield": "P1-3",
+    "+": "P1-4",
+    "-": "P1-5"
+   }
+  },
+  {
+   "name": "LEFT/MONO OUTPUT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-6",
+    "-": "P1-7"
+   }
+  },
+  {
+   "name": "RIGHT INPUT",
+   "dir": "in",
+   "pins": {
+    "shield": "P1-8",
+    "+": "P1-9",
+    "-": "P1-10"
+   }
+  },
+  {
+   "name": "RIGHT OUTPUT",
+   "dir": "out",
+   "pins": {
+    "+": "P1-11",
+    "-": "P1-12"
+   }
+  }
+ ],
+ "inserts": [],
+ "straps": [],
+ "conflicts": [],
+ "to_check": []
 }
