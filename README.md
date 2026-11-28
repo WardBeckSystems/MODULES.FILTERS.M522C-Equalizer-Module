@@ -1,6 +1,6 @@
 # M522C Equalizer Module · Filters
 
-Ward-Beck Systems M522C. Wiki page: [M522C on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M522C.html)
+Ward-Beck Systems M522C. Wiki page: [M522C on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.FILTERS.M522C-Equalizer-Module/)
 
 | Folder | What is in it | Files |
 |---|---|---|
